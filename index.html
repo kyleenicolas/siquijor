@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Siquijor</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        /* Hero Section Styling */
+        .hero {
+            background: url('images/siquijor-banner.webp') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+        }
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 50px;
+            border-radius: 10px;
+        }
+        .image-border {
+            border: 5px solid #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px rgba(91, 1, 247, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Discover Siquijor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="attractions.html">Attractions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="activities.html">Activities</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cuisine.html">Cuisine</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <h1>Welcome to Siquijor!</h1>
+            <p>Discover the island’s hidden gems, rich culture, and exciting adventures.</p>
+            <a href="attractions.html" class="btn btn-warning btn-lg mt-3">Explore Now</a>
+        </div>
+    </header>
+
+    <!-- Highlights Section -->
+    <section class="container py-5 text-center">
+        <h2 class="mb-4">Why Visit Siquijor?</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="images/cambugahay.jpg" alt="Cambugahay Falls" class="img-fluid image-border" width="300">
+                <h4 class="mt-3">Stunning Waterfalls</h4>
+                <p>Experience the crystal-clear waters of Cambugahay Falls and take a refreshing swim.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/sunset.jpg" alt="Siquijor Sunset" class="img-fluid image-border" width="300">
+                <h4 class="mt-3">Breathtaking Sunsets</h4>
+                <p>Witness magical sunsets by the beach, perfect for relaxation and photography.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/firefly.jpg" alt="Fireflies in Siquijor" class="img-fluid image-border" width="300">
+                <h4 class="mt-3">Mystical Experience</h4>
+                <p>Feel the island’s unique charm with its folklore, healing traditions, and firefly-lit nights.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2025 Discover Siquijor</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
